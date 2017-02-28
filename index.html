@@ -31,7 +31,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    <script src="https://unpkg.com/vue"></script>
+    <script src="http://momentjs.com/downloads/moment.js"></script>
 </head>
 
 <body id="page-top">
@@ -54,6 +55,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#services">Vorstand</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#dates">Termine</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#impressions">Impressionen</a>
@@ -106,38 +110,38 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div id="app" class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-diamond text-primary sr-icons"></i>-->
-                        <img class="img-circle" src="https://randomuser.me/api/portraits/men/79.jpg" />
-                        <h3>Max Mustermann</h3>
-                        <p class="text-muted">1. Vorsitzender</p>
+                        <img class="img-circle" :src="members.chairman.avatar" />
+                        <h3>{{ members.chairman.name }}</h3>
+                        <p class="text-muted">{{ members.chairman.position }}</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>-->
-                        <img class="img-circle" src="https://randomuser.me/api/portraits/men/21.jpg" />
-                        <h3>Max Mustermann</h3>
-                        <p class="text-muted">2. Vorsitzender</p>
+                        <img class="img-circle" :src="members.cochairman.avatar" />
+                        <h3>{{ members.cochairman.name }}</h3>
+                        <p class="text-muted">{{ members.cochairman.position }}</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>-->
-                        <img class="img-circle" src="https://randomuser.me/api/portraits/men/31.jpg" />
-                        <h3>Max Mustermann</h3>
-                        <p class="text-muted">Kassenwart</p>
+                        <img class="img-circle" :src="members.treasurer.avatar" />
+                        <h3>{{ members.treasurer.name }}</h3>
+                        <p class="text-muted">{{ members.treasurer.position }}</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-heart text-primary sr-icons"></i>-->
-                        <img class="img-circle" src="https://randomuser.me/api/portraits/men/33.jpg" />
-                        <h3>Max Mustermann</h3>
-                        <p class="text-muted">Schriftführer</p>
+                        <img class="img-circle" :src="members.secretary.avatar" />
+                        <h3>{{ members.secretary.name }}</h3>
+                        <p class="text-muted">{{ members.secretary.position }}</p>
                     </div>
                 </div>
             </div>
@@ -249,7 +253,20 @@
             </div>
         </div>
     </aside>-->
-
+       <section class="bg-primary" id="dates">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Termine</h2>
+                    <hr class="light">
+                    <p v-for="date in dates">
+                        {{ date.date }} {{ date.title }}<br />
+                         {{ date.location }}
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -284,7 +301,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
-
+    <script src="js/data/members.js"></script>
+    <script src="js/data/dates.js"></script>
+     <script src="js/main.js"></script>
 </body>
 
 </html>
