@@ -24,7 +24,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.min.css" rel="stylesheet">
-
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -74,25 +74,25 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <h1 id="homeHeading">Imkerverein Schneverdingen e.V.</h1>
-                <hr>
-                <p>Willkommen auf der Seite des Imkerverein Schneverdingen e.V. Informieren Sie sich über unseren Verein und unsere aktuellen Aktivitäten.</p>
+                <h1 id="homeHeading" class="btn btn-primary btn-xl page-scroll">Imkerverein Schneverdingen e.V.</h1>
+                <!--<hr>-->
+                <!--<p>Willkommen auf der Seite des Imkerverein Schneverdingen e.V. Informieren Sie sich über unseren Verein und unsere aktuellen Aktivitäten.</p>-->
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">Mehr Informationen</a>
             </div>
         </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="bg-primary bg-erika" id="about">
         <div class="container">
+           
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Der Verein</h2>
+                    <h2 class="section-heading">Willkommen auf der Seite des Imkerverein Schneverdingen e.V. Informieren Sie sich über unseren Verein und unsere aktuellen Aktivitäten.</h2>
                     <hr class="light">
-                    <p class="text-faded">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+                    <p class="text-faded">Im Dezember 1908 haben sich 15 Imker zusammengetan und gründeten einen Bienenwirtschaftlichen Verein für Schneverdingen und Umgebung. Als 1. Vorsitzender wurde damals H. Broocks von der Versammlung gewählt. Den Mitgliedern ging es in erster Linie um den gemeinschaftlichen Einkauf von Zucker für die Bienen.</p>
 
-<p class="text-faded">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-
-<p class="text-faded">Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+                    <p class="text-faded">Im Dezember 1958 feierte der Verein sein 50 jähriges bestehen unter der Leitung des 1. Vorsitzenden O. Vorwerk.<br />Ab Januar 1977 übernahm H.J. Graupner das Amt des 1. Vorsitzenden.<br />Nach dem plötzlichen Tod von H.J. Graupner im Jahre 1996 wurde G. Knopp zum 1. Vorsitzenden gewählt.</p>
+                    <p class="text-faded">2008 wurde das 100 jährige bestehen des Vereins gefeiert. Es folgte eine Umbenennung des Vereins in den heute bekannten Namen Imkerverein Schneverdingen. Zur Zeit hat der Verein 58 aktive Mitglieder.</p>
                     <a href="#contact" class="page-scroll btn btn-default btn-xl sr-button">Kontakt aufnehmen</a>
                 </div>
             </div>
@@ -113,33 +113,73 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-diamond text-primary sr-icons"></i>-->
-                        <img class="img-circle" :src="members.chairman.avatar" />
+                        <!--<img class="img-circle" :src="members.chairman.avatar" />-->
                         <h3>{{ members.chairman.name }}</h3>
                         <p class="text-muted">{{ members.chairman.position }}</p>
+                        <p class="text-muted">Tel: {{ members.chairman.phone }}</p>
+                        <p class="text-muted" v-if="members.chairman.email != ''">Mail: <a href="mailto:">{{ members.chairman.email }}</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>-->
-                        <img class="img-circle" :src="members.cochairman.avatar" />
+                        <!--<img class="img-circle" :src="members.cochairman.avatar" />-->
                         <h3>{{ members.cochairman.name }}</h3>
                         <p class="text-muted">{{ members.cochairman.position }}</p>
+                        <p class="text-muted">Tel: {{ members.cochairman.phone }}</p>
+                        <p class="text-muted" v-if="members.cochairman.email != ''">Mail: <a href="mailto:">{{ members.cochairman.email }}</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>-->
-                        <img class="img-circle" :src="members.treasurer.avatar" />
+                        <!--<img class="img-circle" :src="members.treasurer.avatar" />-->
                         <h3>{{ members.treasurer.name }}</h3>
                         <p class="text-muted">{{ members.treasurer.position }}</p>
+                        <p class="text-muted">Tel: {{ members.treasurer.phone }}</p>
+                        <p class="text-muted" v-if="members.treasurer.email != ''">Mail: <a href="mailto:">{{ members.treasurer.email }}</a></p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <!--<i class="fa fa-4x fa-heart text-primary sr-icons"></i>-->
-                        <img class="img-circle" :src="members.secretary.avatar" />
+                        <!--<img class="img-circle" :src="members.secretary.avatar" />-->
                         <h3>{{ members.secretary.name }}</h3>
                         <p class="text-muted">{{ members.secretary.position }}</p>
+                        <p class="text-muted">Tel: {{ members.secretary.phone }}</p>
+                        <p class="text-muted" v-if="members.secretary.email != ''">Mail: <a href="mailto:">{{ members.secretary.email }}</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <!--<i class="fa fa-4x fa-diamond text-primary sr-icons"></i>-->
+                        <!--<img class="img-circle" :src="members.chairman.avatar" />-->
+                        <h3>{{ members.health.name }}</h3>
+                        <p class="text-muted">{{ members.health.position }}</p>
+                        <p class="text-muted">Tel: {{ members.health.phone }}</p>
+                        <p class="text-muted" v-if="members.health.email != ''">Mail: <a href="mailto:">{{ members.health.email }}</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <!--<i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>-->
+                        <!--<img class="img-circle" :src="members.cochairman.avatar" />-->
+                        <h3>{{ members.walker.name }}</h3>
+                        <p class="text-muted">{{ members.walker.position }}</p>
+                        <p class="text-muted">Tel: {{ members.walker.phone }}</p>
+                        <p class="text-muted" v-if="members.walker.email != ''">Mail: <a href="mailto:">{{ members.walker.email }}</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <!--<i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>-->
+                        <!--<img class="img-circle" :src="members.treasurer.avatar" />-->
+                        <h3>{{ members.honey.name }}</h3>
+                        <p class="text-muted">{{ members.honey.position }}</p>
+                        <p class="text-muted">Tel: {{ members.honey.phone }}</p>
+                        <p class="text-muted" v-if="members.honey.email != ''">Mail: <a href="mailto:">{{ members.honey.email }}</a></p>
                     </div>
                 </div>
             </div>
@@ -251,7 +291,7 @@
             </div>
         </div>
     </aside>-->
-       <section class="bg-primary" id="dates">
+       <section class="bg-primary bg-erika" id="dates">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -272,11 +312,11 @@
                     <h2 class="section-heading">Treten Sie mit uns in Kontakt!</h2>
                     <hr class="primary">
                     <p>Haben wir Ihre Interesse am Imkern geweckt?<br /> Grossartig!</p>
-                    <p>Rufen Sie unseren 1. Vorsitzenden Max Mustermann an oder schreiben Sie Ihm eine Email.<br />Wir freuen uns über Ihr Interesse!</p>
+                    <p>Rufen Sie unseren 1. Vorsitzenden Günter Knopp an oder schreiben Sie Ihm eine Email.<br />Wir freuen uns über Ihr Interesse!</p>
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>(+49) 1234 4567</p>
+                    <p>05193 6228</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i class="fa fa-envelope-o fa-3x sr-contact"></i>

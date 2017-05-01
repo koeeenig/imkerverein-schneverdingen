@@ -1,22 +1,51 @@
 var members = {
     "chairman": {
-        "name": "Max Mustermann",
+        "name": "Günter Knopp",
         "position": "1. Vositzender",
+        "phone": "05193 6228",
+        "email": "",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "cochairman": {
-        "name": "Max Mustermann",
+        "name": "Heinrich Inselmann",
         "position": "2. Vositzender",
+        "phone": "05195 1637",
+        "email":"h.inselmann@gmx.de",
         "avatar": "https://randomuser.me/api/portraits/men/21.jpg"
     },
     "treasurer": {
-        "name": "Max Mustermann",
+        "name": "Hans-Joachim Sachse",
         "position": "Kassenwart",
+        "phone": "05193 2512",
+        "email":"",
         "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
     },
     "secretary": {
-        "name": "Max Mustermann",
+       "name": "Günter Knopp",
         "position": "Schriftführer",
-        "avatar": "https://randomuser.me/api/portraits/men/33.jpg"
+        "phone": "05193 6228",
+        "email": "",
+        "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
+    },
+    "health": {
+        "name": "Reinhard Heins",
+        "position": "Gesundheitsobmann",
+        "phone": "05193 1842",
+        "email": "reinhard.heins-insel@t-online.de",
+        "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
+    },
+    "walker": {
+        "name": "Günter Knopp",
+        "position": "Wanderwart",
+        "phone": "05193 6228",
+        "email": "",
+        "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
+    },
+    "honey": {
+        "name": "Dieter Riebesehl",
+        "position": "Honigobmann",
+        "phone": "05193 6259",
+        "email": "griebesehl@t-online.de",
+        "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     }
 }
