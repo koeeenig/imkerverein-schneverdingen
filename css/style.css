@@ -14,3 +14,27 @@
 .portfolio-box-caption {
     background: rgba(197,0,115,0.9) !important;
 }
+
+hr {
+    border-color: #C50073;
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+    color: #C50073
+}
+
+.navbar-default.affix .navbar-header .navbar-brand:focus, .navbar-default.affix .navbar-header .navbar-brand:hover {
+    color: #C50073
+}
+
+.navbar-default .nav>li.active>a, .navbar-default .nav>li.active>a:focus {
+    color: #C50073 !important;
+}
+
+.navbar-default.affix .nav>li>a:focus:hover, .navbar-default.affix .nav>li>a:hover{
+    color: #C50073 !important;
+}
+
+a, a:hover {
+    color: #C50073;
+}
