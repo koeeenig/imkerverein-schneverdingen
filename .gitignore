@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/macos,visualstudiocode
 
+node_modules
+yarn.lock
+
 ### macOS ###
 *.DS_Store
 .AppleDouble
