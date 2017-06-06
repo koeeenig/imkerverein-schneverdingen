@@ -45,7 +45,7 @@ var members = {
         "name": "Dieter Riebesehl",
         "position": "Honigobmann",
         "phone": "05193 6259",
-        "email": "griebesehl@t-online.de",
+        "email": "driebesehl@t-online.de",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     }
 }
