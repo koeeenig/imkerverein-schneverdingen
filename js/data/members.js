@@ -1,14 +1,14 @@
 var members = {
     "chairman": {
         "name": "Günter Knopp",
-        "position": "1. Vositzender",
+        "position": "1. Vorsitzender",
         "phone": "05193 6228",
         "email": "",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "cochairman": {
         "name": "Heinrich Inselmann",
-        "position": "2. Vositzender",
+        "position": "2. Vorsitzender",
         "phone": "05195 1637",
         "email":"h.inselmann@gmx.de",
         "avatar": "https://randomuser.me/api/portraits/men/21.jpg"
