@@ -1,30 +1,30 @@
 var members = {
-    "chairman": {
-        "name": "Günter Knopp",
-        "position": "1. Vorsitzender",
-        "phone": "05193 6228",
-        "email": "",
+    "cochairman": {
+        "name": "Klaus-Gerd Ruschmeyer",
+        "position": "2. Vorsitzender",
+        "phone": "04265 754",
+        "email": "gerdruschmeyer@gmx.de",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
-    "cochairman": {
+    "chairman": {
         "name": "Heinrich Inselmann",
-        "position": "2. Vorsitzender",
+        "position": "1. Vorsitzender",
         "phone": "05195 1637",
         "email":"h.inselmann@gmx.de",
         "avatar": "https://randomuser.me/api/portraits/men/21.jpg"
     },
     "treasurer": {
-        "name": "Hans-Joachim Sachse",
+        "name": "Erhard Gildenstern",
         "position": "Kassenwart",
-        "phone": "05193 2512",
-        "email":"",
+        "phone": "05193 7768",
+        "email": "erhard.gildenstern@ewe.net",
         "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
     },
     "secretary": {
-       "name": "Günter Knopp",
+       "name": "Ulrike Gose",
         "position": "Schriftführer",
-        "phone": "05193 6228",
-        "email": "",
+        "phone": "05193 4504",
+        "email": "h.gose@grauen-dsl.de",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "health": {
@@ -35,10 +35,10 @@ var members = {
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "walker": {
-        "name": "Günter Knopp",
+        "name": "Dieter Riebesehl",
         "position": "Wanderwart",
-        "phone": "05193 6228",
-        "email": "",
+        "phone": "05193 6259",
+        "email": "driebesehl@t-online.de",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "honey": {
