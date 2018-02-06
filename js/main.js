@@ -11,3 +11,10 @@ var app = new Vue({
     dates: dates
   }
 });
+
+var app = new Vue({
+  el: '#contact',
+  data: {
+    chairman: members.chairman
+  }
+});
