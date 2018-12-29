@@ -1,76 +1,76 @@
 dates = [
     {
-        "date": moment(new Date(2018,0,12,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,0,11,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,0,27,14,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,1,2,14,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Jahreshauptversammlung mit Ehrungen",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,1,3,19,0)).format('DD.MM.YYYY HH:mm'),
-        "title": "Grünkohlessen",
-        "location": "Landgasthaus Wesseloh, Wesseloherstr. 29 (zum Müden)"
+        "date": moment(new Date(2019,1,08,19,0)).format('DD.MM.YYYY HH:mm'),
+        "title": "Klönabend mit Film: Honig, wirklich so gesund",
+        "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,1,9,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,1,16,19,0)).format('DD.MM.YYYY HH:mm'),
+        "title": "Grünkohlessen",
+        "location": "Landgasthaus Leverenz, Delmser Dorfstr. 38, 29643 Neuenkirchen"
+    },
+    {
+        "date": moment(new Date(2019,2,8,19,0)).format('DD.MM.YYYY HH:mm'),
+        "title": "Klönabend",
+        "location": "Gasthaus zum Dorfkrug in Insel"
+    },
+    {
+        "date": moment(new Date(2019,2,10,14,0)).format('DD.MM.YYYY HH:mm'),
+        "title": "Vertreterversammlung des Kreisimkervereins Altkreis Soltau",
+        "location": "Restaurant Oase - Zum Örtzetal, Danziger Str. 74-76, 29633 Munster"
+    },
+    {
+        "date": moment(new Date(2019,3,12,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend mit Film: Im Wunderland der Bienen",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,1,10,19,0)).format('DD.MM.YYYY HH:mm'),
-        "title": "Heide entkusseln vorgesehen (Schnee ?)",
-        "location": ""
-    },
-    {
-        "date": moment(new Date(2018,2,9,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,4,10,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,3,13,19,0)).format('DD.MM.YYYY HH:mm'),
-        "title": "Klönabend mit Film: Die roten Flächen werden grün",
-        "location": "Gasthaus zum Dorfkrug in Insel"
-    },
-    {
-        "date": moment(new Date(2018,4,11,19,0)).format('DD.MM.YYYY HH:mm'),
-        "title": "Klönabend",
-        "location": "Gasthaus zum Dorfkrug in Insel"
-    },
-    {
-        "date": moment(new Date(2018,5,8,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,5,14,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend mit Film: Bienenhaltung in der Rotation",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,6,13,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,6,12,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,7,10,19,0)).format('DD.MM.YYYY HH:mm'),
-        "title": "Klönabend mit Film: Film über Varroamilbe",
+        "date": moment(new Date(2019,7,9,19,0)).format('DD.MM.YYYY HH:mm'),
+        "title": "Klönabend mit Film: Die Varroamilbe",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,8,14,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,8,13,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,9,12,19,0)).format('DD.MM.YYYY HH:mm'),
-        "title": "Klönabend mit Film: Unser Honig „Jakobskreuzkraut“",
+        "date": moment(new Date(2019,9,11,19,0)).format('DD.MM.YYYY HH:mm'),
+        "title": "Klönabend mit Film: Die Lüneburger Heide 1996",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,10,09,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,10,08,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend",
         "location": "Gasthaus zum Dorfkrug in Insel"
     },
     {
-        "date": moment(new Date(2018,11,14,19,0)).format('DD.MM.YYYY HH:mm'),
+        "date": moment(new Date(2019,11,13,19,0)).format('DD.MM.YYYY HH:mm'),
         "title": "Klönabend",
         "location": "Gasthaus zum Dorfkrug in Insel"
     }
