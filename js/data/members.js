@@ -17,7 +17,7 @@ var members = {
         "name": "Erhard Gildenstern",
         "position": "Kassenwart",
         "phone": "05193 7768",
-        "email": "erhard.gildenstern@ewe.net",
+        "email": "erhard.gildenstern@gmx.de",
         "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
     },
     "secretary": {
