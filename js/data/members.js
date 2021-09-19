@@ -24,7 +24,7 @@ var members = {
        "name": "Ulrike Gose",
         "position": "Schriftführer",
         "phone": "05193 4504",
-        "email": "h.gose@grauen-dsl.de",
+        "email": "h.gose@ewe.net",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "health": {
