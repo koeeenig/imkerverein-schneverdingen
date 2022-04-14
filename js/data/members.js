@@ -37,7 +37,7 @@ var members = {
     "walker": {
         "name": "Dieter Riebesehl",
         "position": "Wanderwart",
-        "phone": "05193 6259",
+        "phone": "01709881601",
         "email": "driebesehl@t-online.de",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
