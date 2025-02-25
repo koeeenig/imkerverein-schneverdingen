@@ -28,10 +28,10 @@ var members = {
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "health": {
-        "name": "Reinhard Heins",
+        "name": "Tony Eggert",
         "position": "Gesundheitsobmann",
-        "phone": "05193 1842",
-        "email": "reinhard.heins-insel@t-online.de",
+        "phone": "0151 684 184 30",
+        "email": "Tony.89@live.de",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
     },
     "walker": {
