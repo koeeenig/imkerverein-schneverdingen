@@ -112,7 +112,7 @@
         </div>
         <div id="app" class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <h3>{{ members.chairman.name }}</h3>
                         <p class="text-muted">{{ members.chairman.position }}</p>
@@ -120,15 +120,15 @@
                         <p class="text-muted" v-if="members.chairman.email != ''">Mail: <a href="mailto:">{{ members.chairman.email }}</a></p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <!-- <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <h3>{{ members.cochairman.name }}</h3>
                         <p class="text-muted">{{ members.cochairman.position }}</p>
-                        <p class="text-muted">Tel: {{ members.cochairman.phone }}</p>
+                        <p class="text-muted" v-if="members.cochairman.email != ''">Tel: {{ members.cochairman.phone }}</p>
                         <p class="text-muted" v-if="members.cochairman.email != ''">Mail: <a href="mailto:">{{ members.cochairman.email }}</a></p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                </div> -->
+                <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <h3>{{ members.treasurer.name }}</h3>
                         <p class="text-muted">{{ members.treasurer.position }}</p>
@@ -136,7 +136,7 @@
                         <p class="text-muted" v-if="members.treasurer.email != ''">Mail: <a href="mailto:">{{ members.treasurer.email }}</a></p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
+                <div class="col-lg-4 col-md-6 text-center">
                     <div class="service-box">
                         <h3>{{ members.secretary.name }}</h3>
                         <p class="text-muted">{{ members.secretary.position }}</p>

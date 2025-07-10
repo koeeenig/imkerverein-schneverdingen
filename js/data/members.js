@@ -1,11 +1,4 @@
 var members = {
-    "cochairman": {
-        "name": "Klaus-Gerd Ruschmeyer",
-        "position": "2. Vorsitzender",
-        "phone": "04265 754",
-        "email": "gerdruschmeyer@gmx.de",
-        "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
-    },
     "chairman": {
         "name": "Heinrich Inselmann",
         "position": "1. Vorsitzender",
