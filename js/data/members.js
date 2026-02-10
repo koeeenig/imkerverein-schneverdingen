@@ -22,7 +22,7 @@ var members = {
     },
     "secretary": {
         "name": "Ulrike Gose",
-        "position": "Schriftführer",
+        "position": "Schriftführerin",
         "phone": "05193 4504",
         "email": "h.gose@ewe.net",
         "avatar": "https://randomuser.me/api/portraits/men/79.jpg"
